@@ -1,0 +1,23 @@
+nav {
+    background-color: #05ce00;
+}
+
+a:hover {
+    background-color: #282c34 !important;
+}
+
+.iconimg {
+    height: 50px ;
+    width: auto;
+    margin-top: 3px;
+    border-radius: 50px;
+}
+
+nav.keepBottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.center {
+    text-align: center;
+}
