@@ -12,10 +12,10 @@ class Navbar extends Component {
                     {/* Need this entire section centered */}
                     <ul className='center'>
                         <li><Link to='/' > Home </Link></li>
-                        <li><Link to='/two' > Two </Link></li>
-                        <li><Link to='/three' > three </Link></li>
-                        <li><Link to='/four' > Four </Link></li>
-                        <li><Link to='/five' > Five </Link></li>
+                        <li><Link to='/savings' > Saving Plans </Link></li>
+                        <li><Link to='/plans' > My Plans </Link></li>
+                        <li><Link to='/wishlist' > Wish List </Link></li>
+                        <li><Link to='/profile' > Profile </Link></li>
                     </ul>
                 </div>
             </nav>

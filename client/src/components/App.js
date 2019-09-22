@@ -5,7 +5,11 @@ import * as actions from '../actions';
 
 import Navbar from './Navbar';
 import TopBar from './TopBar';
-const Dashboard = () => <h2>Dashboard</h2>;
+
+import HomePage from './HomePage';
+import SavingsPlans from './SavingsPlans';
+import MyPlans from './MyPlans';
+
 const SurveryNew = () => <h2>SurveryNew</h2>;
 const Landing = () => <h2>Landing</h2>;
 const Two = () => <h2>Page Two</h2>
@@ -26,12 +30,13 @@ class App extends Component {
                 <BrowserRouter> {/* BrowserRouter can ONLY have 1 child so we need div inside here*/}
                     <div>
                         <TopBar />
-                        <Route exact path='/' component={Landing} />
+                        <Route exact path='/' component={HomePage} />
+                        <Route exact path='/landing' component={Landing} />
                         <Route exact path='/surveys/new' component={SurveryNew} />
-                        <Route exact path='/two' component={Two} />
-                        <Route exact path='/three' component={Three} />
-                        <Route exact path='/four' component={Four} />
-                        <Route exact path='/five' component={Five} />
+                        <Route exact path='/savings' component={SavingsPlans} />
+                        <Route exact path='/plans' component={MyPlans} />
+                        <Route exact path='/wishlist' component={Four} />
+                        <Route exact path='/profile' component={Five} />
                         <Navbar />
 
                     </div>

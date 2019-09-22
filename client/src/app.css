@@ -1,5 +1,14 @@
 nav {
-    background-color: #05ce00;
+    background-color: #64dd17;
+}
+
+
+body {
+    /*background-color: #;*/
+}
+
+li a a {
+    color: black;
 }
 
 a:hover {
@@ -14,10 +23,57 @@ a:hover {
 }
 
 nav.keepBottom {
+    overflow: hidden;
     position: fixed;
     bottom: 0;
+    /*margin-top: 65px;*/
+}
+
+.bottom65 {
+    margin-bottom: 65px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.card .card-content {
+    padding-bottom: 0;
 }
 
 .center {
     text-align: center;
 }
+
+.snowColor {
+    color: snow !important;
+}
+
+.col .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+.ppll {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*font-size: 150px;*/
+    text-align: center;
+    font-weight: 800;
+    /*letter-spacing: -3px;*/
+    line-height: 1;
+    text-shadow: #EDEDED 3px 2px 0;
+    /*position: relative;*/
+}
+
+/*
+    Xfinity Stream
+    Xfinity My Account
+    Xfinity Hot Spot
+*/
+
